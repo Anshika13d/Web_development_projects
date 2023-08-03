@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "../website"
+		},
+		{
+			"path": "../myweb"
+		},
+		{
+			"path": "../Book"
+		},
+		{
+			"path": "../Currency Converter"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "To-do list"
+	}
+}
