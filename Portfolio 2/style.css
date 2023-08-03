@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    font-family: 'Raleway', sans-serif;
+        background-image: url("final.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position:center center;
+        background-color: #fff; /* Fallback color in case images don't load or cover the whole area */
+    
+  }
+nav{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    font-size: 23px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin-top: 30px;
+    font-weight: bolder;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(193, 117, 70);
+}
+nav ul li a:hover{
+    color: rgb(112, 34, 34);
+}
+.rightsection{
+    display: flex;
+justify-content: center; /* Center align the content horizontally */
+align-items: center; /* Center align the content vertically */
+height: 100vh;
+margin-top: -100px;
+}
+.rightsection img{           
+    border-radius: 70%;
+max-width: 20%;
+display: block;
+margin: 0 auto;
+}
+.second-txt {
+    position: absolute;
+    bottom: 60px;
+    color: rgb(167, 99, 56);
+    font-weight: bold;
+    text-align: center;
+    justify-content: center;
+    font-size: 30px;
+}
+.secondsection{
+    max-width: 80vw;
+    margin: 10%;
+    height: 36vh;
+    text-align: center;
+    color: rgb(167, 99, 56);
+}
+.secondsection h1{
+    font-size: 45px;
+    
+}
+.secondsection .box{
+    font-weight: bold;
+    width: 85%;
+    margin: 45px auto;
+    padding: 20px;
+    text-align: center;
+}
+.thirdsectionleft{
+    max-width: 100vw;
+    display: flex;
+    margin: 10%;
+    height: 80vh;
+    justify-content: space-between;
+    color: rgb(167, 99, 56);
+}
+.thirdsectionleft h1{
+    text-align: center;
+    font-size: 35px;
+}
+.thirdsectionleft .box3{
+    font-weight: bold;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(233, 211, 198);
+}
+.thirdsectionleft .box3 .year{
+    font-weight: bolder;
+    font-size: 23px;
+}
+.thirdsectionleft .box4{
+    font-weight: bold;
+    width: 100%;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(233, 211, 198);
+    text-align: left;
+    font-size: 18px;
+}
+.foursection{
+    text-align: center;
+    color: rgb(167, 99, 56);
+    font-size: 30px;
+    margin-top: 10%;
+    height: 35%;
+}
+.foursection .proj{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+.foursection .projs {
+    position: relative;
+    flex: 1;
+    text-align: center;
+    margin: 40 10px; /* Adjust spacing as needed */
+}
+.foursection .proj .one {
+    width: 90%;
+    max-width: 90%; /* Adjust image width as needed */
+}
+.foursection .proj .one1 {
+    width: 80%;
+    max-width: 75%; /* Adjust image width as needed */
+}
+
+.foursection .projs p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 21px;
+   
+    width: 90%;
+    height: 68%;
+    background-color: rgb(167, 99, 56); /* Transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+.overlay-special {
+    left: 55px;
+    width: 75%; /* Set custom width for the third image */
+    height: 70%; /* Set custom height for the third image */
+}
+
+.foursection .projs:hover .overlay {
+    opacity: 1;
+}
+
+.overlay p {
+    color: white;
+    font-size: 18px;
+}
+
+.fivesection{
+    text-align: left;
+    margin: 150px;
+    color: rgb(167, 99, 56);
+    font-size: 23px;
+}
+.fivesection h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.bol{
+    font-weight: bold;
+}
+.send-button{
+    padding: 15px;
+    font-size: 23px;
+    background-color:rgb(167, 99, 56) ;
+    border: none;
+    border-radius: 15px;
+    color: white;
+}
+.sixsection {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end; /* Align items to the bottom */
+    margin-top: 50px; /* Add some margin to separate from the content above */
+   margin-bottom: 50px;
+}
+
+.sixsection div {
+    margin: 0 10px; /* Adjust spacing between the images */
+    
+}
+.image {
+    width: 50px;
+    transition: transform 0.3s ease-in-out; /* Adding smooth transition */
+}
+
+.image:hover {
+    transform: scale(1.2); /* Enlarge the image on hover */
+}
+.lastsec{
+    margin: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-weight: bold;
+    color:rgb(167, 99, 56) ;
+}
